@@ -1,0 +1,93 @@
+@import "../node_modules/normalize.css/normalize.css";
+@import "../node_modules/milligram/dist/milligram.min.css";
+
+.navigation {
+  height: 40px;
+  /* border-bottom: solid 1px #736EFE; */
+  border-bottom: solid 1px #FFF;
+  background-color: #0396FF;
+}
+
+.navigation-title {
+  color: #fff;
+}
+
+a.navigation-title:hover {
+  color: #fff;
+}
+
+.navigation-title h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0rem;
+  padding-top: 0.8rem;
+}
+
+.hero-container {
+  background: url('../img/hotel-1.jpg') #f4f5f6 no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 250px;
+}
+
+.hero-data {
+  padding: 50px 0px 80px 0px;
+  position: relative;
+}
+
+.hero-data * {
+  color: #fff;
+}
+
+.feature-box {
+  border-radius: 6px;
+  margin: 0px 10px;
+  padding: 20px 10px !important;
+}
+
+footer {
+  font-size: 12px;
+  margin-top: 75px;
+}
+
+section.highlight {
+  background-color: #f4f5f6;
+  padding: 40px 0px 5px 0px;
+}
+
+
+/* util */
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+ul.clear {
+  list-style: none;
+}
+
+ul.clear li {
+  margin-bottom: 0rem;
+}
+
+p.clear {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #736EFE;
+  border-bottom: 1px #736EFE dotted;
+}
+
+.button {
+  border: solid 1px #736EFE;
+  background-color: #0396FF;
+}
